@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: ./
+  - source: ./index.nginx-debian.html
     destination: /var/www/html
     overwrite: yes
 
