@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /zookeeper-ignite.xml
     destination: /home/ubuntu/apache-ignite-2.7.0-bin
+  - source: /index.html
+    destination: /var/www/html
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
