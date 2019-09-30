@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <bean id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
-  <--  <property name="dataStorageConfiguration">
+   <property name="dataStorageConfiguration">
             <bean class="org.apache.ignite.configuration.DataStorageConfiguration">
                 <property name="defaultDataRegionConfiguration">
                     <bean class="org.apache.ignite.configuration.DataRegionConfiguration">
