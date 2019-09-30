@@ -1,6 +1,6 @@
 #!/bin/bash
 #yum install -y httpd
-
+rm -rf /home/ubuntu/apache-ignite-2.7.0-bin/zookeeper-ignite.xml
 sudo service codedeploy-agent start
 apt-get update
 
